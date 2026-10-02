@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Pátio América",
+    "tipo": "Hamburgueria · Chopp",
+    "categoria": "Bares",
+    "bairro": "América",
+    "faixaPreco": 2,
+    "aberto": true,
+    "horario": "até 0h",
+    "icone": "fa-solid fa-beer-mug-empty",
+    "gradiente": "linear-gradient(135deg, #fb923c, #f472b6)"
+  },
+  {
+    "nome": "Cozinha da José Vieira",
+    "tipo": "Restaurante · Brasileiro",
+    "categoria": "Gastronomia",
+    "bairro": "América",
+    "faixaPreco": 2,
+    "aberto": true,
+    "horario": "até 23h",
+    "icone": "fa-solid fa-utensils",
+    "gradiente": "linear-gradient(135deg, #ec4899, #be185d)"
+  },
+  {
+    "nome": "Doceria Atiradores",
+    "tipo": "Café · Doces",
+    "categoria": "Gastronomia",
+    "bairro": "Atiradores",
+    "faixaPreco": 1,
+    "aberto": false,
+    "horario": "abre 9h",
+    "icone": "fa-solid fa-mug-hot",
+    "gradiente": "linear-gradient(135deg, #f472b6, #c026d3)"
+  },
+  {
+    "nome": "Bar do Mercado",
+    "tipo": "Bar · Petiscos",
+    "categoria": "Bares",
+    "bairro": "Centro",
+    "faixaPreco": 2,
+    "aberto": true,
+    "horario": "até 22h",
+    "icone": "fa-solid fa-wine-glass",
+    "gradiente": "linear-gradient(135deg, #fb923c, #f472b6)"
+  },
+  {
+    "nome": "Pastelaria Central",
+    "tipo": "Lanches · Pastel",
+    "categoria": "Gastronomia",
+    "bairro": "Centro",
+    "faixaPreco": 1,
+    "aberto": true,
+    "horario": "até 18h",
+    "icone": "fa-solid fa-burger",
+    "gradiente": "linear-gradient(135deg, #ec4899, #be185d)"
+  },
+  {
+    "nome": "Café da Praça",
+    "tipo": "Café · Doces",
+    "categoria": "Gastronomia",
+    "bairro": "Centro",
+    "faixaPreco": 2,
+    "aberto": false,
+    "horario": "abre 8h",
+    "icone": "fa-solid fa-mug-hot",
+    "gradiente": "linear-gradient(135deg, #f472b6, #c026d3)"
+  }
+]

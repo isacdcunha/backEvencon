@@ -1,0 +1,291 @@
+[
+  {
+    "titulo": "Festival de Dança de Joinville — Noite de Gala",
+    "categorias": [
+      "Dança",
+      "Festival"
+    ],
+    "data": "Sáb 3 out · 20h30",
+    "inicio": "2026-10-03T20:30",
+    "local": "Centreventos Cau Hansen",
+    "bairro": "América",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": true,
+    "preco": 90,
+    "rotuloPreco": "entrada",
+    "icone": "fa-solid fa-person-walking",
+    "destaque": "Em alta em Joinville",
+    "dataCompleta": "Sábado, 3 de outubro · 20h30",
+    "detalheHorario": "Portões abrem às 19h30 · duração 2h30",
+    "endereco": "Av. José Vieira, 315 · América",
+    "latitude": -26.2965,
+    "longitude": -48.8497,
+    "organizador": "Instituto Festival de Dança",
+    "detalheOrganizador": "Organizador · 48 eventos realizados",
+    "interessados": 313,
+    "amigasInteressadas": [
+      "Marina",
+      "Júlia",
+      "Lara"
+    ],
+    "sobre": "A noite que abre a temporada de primavera do Festival reúne sete companhias convidadas, do balé clássico ao contemporâneo. Chegue cedo: o estacionamento do Centreventos lota a partir das 19h.",
+    "tags": [
+      "dança",
+      "balé",
+      "contemporâneo",
+      "espetáculo",
+      "show"
+    ],
+    "classificacao": "12",
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Cadeirantes · Libras"
+      },
+      {
+        "icone": "fa-solid fa-paw",
+        "titulo": "Sem pets",
+        "descricao": "Animais não entram"
+      },
+      {
+        "icone": "fa-solid fa-children",
+        "titulo": "Para família",
+        "descricao": "Crianças bem-vindas"
+      }
+    ],
+    "lote": "1º lote",
+    "linkCompra": "https://www.festivaldedanca.com.br",
+    "distanciaKm": 2.1,
+    "tempoDeCarro": "8 min de carro",
+    "lugaresProximos": [
+      {
+        "lugar": "Pátio América",
+        "distanciaKm": 0.4
+      },
+      {
+        "lugar": "Cozinha da José Vieira",
+        "distanciaKm": 0.4
+      },
+      {
+        "lugar": "Doceria Atiradores",
+        "distanciaKm": 0.5
+      }
+    ]
+  },
+  {
+    "titulo": "Feira de Sábado no Mercado Público",
+    "categorias": [
+      "Gastronomia",
+      "Feiras"
+    ],
+    "data": "Sáb 3 out · 8h às 13h",
+    "inicio": "2026-10-03T08:00",
+    "local": "Mercado Público Municipal",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": true,
+    "paraFamilia": true,
+    "preco": 0,
+    "rotuloPreco": "entrada",
+    "icone": "fa-solid fa-utensils",
+    "dataCompleta": "Sábado, 3 de outubro · 8h",
+    "detalheHorario": "Das 8h às 13h",
+    "endereco": "Praça Hercílio Luz, 52 · Centro",
+    "latitude": -26.3037,
+    "longitude": -48.8418,
+    "organizador": "Prefeitura de Joinville",
+    "detalheOrganizador": "Organizador · 120 eventos realizados",
+    "interessados": 128,
+    "amigasInteressadas": [
+      "Marina"
+    ],
+    "sobre": "Produtores locais, comida de rua e música ao vivo toda manhã de sábado. Leve sua sacola: a feira incentiva compras sem plástico.",
+    "tags": [
+      "feira",
+      "gastronomia",
+      "ao ar livre"
+    ],
+    "classificacao": "L",
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Cadeirantes"
+      },
+      {
+        "icone": "fa-solid fa-paw",
+        "titulo": "Pet friendly",
+        "descricao": "Pets na coleira"
+      },
+      {
+        "icone": "fa-solid fa-children",
+        "titulo": "Para família",
+        "descricao": "Crianças bem-vindas"
+      }
+    ],
+    "lote": "Entrada",
+    "linkCompra": "https://www.joinville.sc.gov.br",
+    "distanciaKm": 1.2,
+    "tempoDeCarro": "5 min de carro",
+    "lugaresProximos": [
+      {
+        "lugar": "Bar do Mercado",
+        "distanciaKm": 0.1
+      },
+      {
+        "lugar": "Pastelaria Central",
+        "distanciaKm": 0.2
+      },
+      {
+        "lugar": "Café da Praça",
+        "distanciaKm": 0.3
+      }
+    ]
+  },
+  {
+    "titulo": "Corrida Noturna Beira-Rio 5K",
+    "categorias": [
+      "Esportes",
+      "Corrida"
+    ],
+    "data": "Sáb 3 out · 19h",
+    "inicio": "2026-10-03T19:00",
+    "local": "Av. Beira Rio",
+    "bairro": "Centro",
+    "acessivel": false,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 60,
+    "rotuloPreco": "inscrição",
+    "icone": "fa-solid fa-person-running",
+    "dataCompleta": "Sábado, 3 de outubro · 19h",
+    "detalheHorario": "Retirada do kit até 18h · largada 19h",
+    "endereco": "Av. Beira Rio · Centro",
+    "latitude": -26.2995,
+    "longitude": -48.8392,
+    "organizador": "Joinville Runners",
+    "detalheOrganizador": "Organizador · 15 eventos realizados",
+    "interessados": 87,
+    "amigasInteressadas": [
+      "Júlia",
+      "Lara"
+    ],
+    "sobre": "Percurso de 5 km às margens do rio Cachoeira, com iluminação especial e hidratação no meio do caminho. Aberta a todos os níveis.",
+    "tags": [
+      "corrida",
+      "esporte",
+      "noite"
+    ],
+    "classificacao": "L",
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-shirt",
+        "titulo": "Kit incluso",
+        "descricao": "Camiseta · Medalha"
+      },
+      {
+        "icone": "fa-solid fa-paw",
+        "titulo": "Sem pets",
+        "descricao": "Animais não correm"
+      },
+      {
+        "icone": "fa-solid fa-person",
+        "titulo": "A partir de 14",
+        "descricao": "Menores com autorização"
+      }
+    ],
+    "lote": "2º lote",
+    "linkCompra": "https://www.joinvillerunners.com.br",
+    "distanciaKm": 1.1,
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": [
+      {
+        "lugar": "Bar do Mercado",
+        "distanciaKm": 0.1
+      },
+      {
+        "lugar": "Pastelaria Central",
+        "distanciaKm": 0.2
+      },
+      {
+        "lugar": "Café da Praça",
+        "distanciaKm": 0.3
+      }
+    ]
+  },
+  {
+    "titulo": "Roda de Samba do Mercado",
+    "categorias": [
+      "Música",
+      "Roda de samba"
+    ],
+    "data": "Sáb 3 out · 16h",
+    "inicio": "2026-10-03T16:00",
+    "local": "Mercado Público Municipal",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": true,
+    "paraFamilia": true,
+    "preco": 0,
+    "rotuloPreco": "entrada",
+    "icone": "fa-solid fa-music",
+    "destaque": "Favorito da galera",
+    "dataCompleta": "Sábado, 3 de outubro · 16h",
+    "detalheHorario": "Das 16h às 21h",
+    "endereco": "Praça Hercílio Luz, 52 · Centro",
+    "latitude": -26.3037,
+    "longitude": -48.8418,
+    "organizador": "Coletivo Samba Joinville",
+    "detalheOrganizador": "Organizador · 32 eventos realizados",
+    "interessados": 204,
+    "amigasInteressadas": [
+      "Lara",
+      "Marina",
+      "Júlia"
+    ],
+    "sobre": "Roda de samba aberta no pátio do Mercado, com repertório de clássicos e participação de músicos convidados.",
+    "tags": [
+      "samba",
+      "música",
+      "ao vivo"
+    ],
+    "classificacao": "L",
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Cadeirantes"
+      },
+      {
+        "icone": "fa-solid fa-paw",
+        "titulo": "Pet friendly",
+        "descricao": "Pets na coleira"
+      },
+      {
+        "icone": "fa-solid fa-children",
+        "titulo": "Para família",
+        "descricao": "Crianças bem-vindas"
+      }
+    ],
+    "lote": "Entrada",
+    "linkCompra": "https://www.instagram.com",
+    "distanciaKm": 1.2,
+    "tempoDeCarro": "5 min de carro",
+    "lugaresProximos": [
+      {
+        "lugar": "Bar do Mercado",
+        "distanciaKm": 0.1
+      },
+      {
+        "lugar": "Pastelaria Central",
+        "distanciaKm": 0.2
+      },
+      {
+        "lugar": "Café da Praça",
+        "distanciaKm": 0.3
+      }
+    ]
+  }
+]
