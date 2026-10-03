@@ -16,11 +16,12 @@
     "rotuloPreco": "entrada",
     "icone": "fa-solid fa-person-walking",
     "destaque": "Em alta em Joinville",
+    "imagem": "/imgs/festival-de-danca.jpg",
     "dataCompleta": "Sábado, 3 de outubro · 20h30",
     "detalheHorario": "Portões abrem às 19h30 · duração 2h30",
     "endereco": "Av. José Vieira, 315 · América",
-    "latitude": -26.2965,
-    "longitude": -48.8497,
+    "latitude": -26.2925,
+    "longitude": -48.844,
     "organizador": "Instituto Festival de Dança",
     "detalheOrganizador": "Organizador · 48 eventos realizados",
     "interessados": 313,
@@ -287,5 +288,1291 @@
         "distanciaKm": 0.3
       }
     ]
+  },
+  {
+    "titulo": "Jardim dos Sonhos — Escola de Ballet Fernanda Araújo",
+    "categorias": [
+      "Dança",
+      "Cultura"
+    ],
+    "data": "Dom 4 out · 13h30, 16h e 19h",
+    "inicio": "2026-10-04T13:30",
+    "local": "Teatro Juarez Machado",
+    "bairro": "América",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": true,
+    "preco": 45.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 2.1,
+    "icone": "fa-solid fa-person-walking",
+    "detalheHorario": "Sessões às 13h30, 16h e 19h · duração 1h",
+    "endereco": "Avenida José Vieira, 315 · América",
+    "latitude": -26.2925,
+    "longitude": -48.844,
+    "organizador": "Escola de Ballet Fernanda Araújo",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "ESCOLA DE BALLET FERNANDA ARAÚJO APRESENTA: JARDIM DOS SONHOS. ONDE CADA PÉTALA FLORESCE E CADA SONHO GANHA ASAS.",
+    "tags": [
+      "dança",
+      "cultura"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/danca/jardim-dos-sonhos-escola-de-ballet-fernanda-araujo/04-10/13-30/",
+    "tempoDeCarro": "8 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "O Grande Espetáculo — Rafa Dança Educação",
+    "categorias": [
+      "Dança",
+      "Cultura"
+    ],
+    "data": "Qua 14 a qui 15 out",
+    "inicio": "2026-10-14T19:00",
+    "local": "Teatro Juarez Machado",
+    "bairro": "América",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": true,
+    "preco": 60.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 2.1,
+    "icone": "fa-solid fa-person-walking",
+    "detalheHorario": "Sessões: qua 14/10 às 19h e qui 15/10 às 19h · duração 1h30",
+    "endereco": "Avenida José Vieira, 315 · América",
+    "latitude": -26.2925,
+    "longitude": -48.844,
+    "organizador": "Rafa Dança Educação",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "A Rafa Dança Educação trará ao palco O Grande Espetáculo em comemoração aos seus 20 anos de trajetória. O Grande Espetáculo transformará o palco em um grande Circo repleto de magia, alegria, aprendizado e encantamento através da Dança e da Arte.",
+    "tags": [
+      "dança",
+      "cultura"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/danca/o-grande-espetaculo-rafa-danca-educacao/14-10/19-00/",
+    "tempoDeCarro": "8 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Tertúlia Cultural",
+    "categorias": [
+      "Cultura"
+    ],
+    "inicio": "2026-10-21T17:30",
+    "local": "Teatro Juarez Machado",
+    "bairro": "América",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": true,
+    "preco": 40.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 2.1,
+    "icone": "fa-solid fa-masks-theater",
+    "detalheHorario": "Portões abrem às 17h · duração 1h30",
+    "endereco": "Avenida José Vieira, 315 · América",
+    "latitude": -26.2925,
+    "longitude": -48.844,
+    "organizador": "Colégio Santo Antonio - CSA",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Evento desenvolvido pelos alunos do 2º ano do Ensino Médio. Eles desenvolvem músicas, teatros, danças, entre outras. Este ano o tema é Mitologia Grega.",
+    "tags": [
+      "cultura"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/teatro/tertulia-cultural/21-10/17-30/",
+    "tempoDeCarro": "8 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Bellyvile 5ª Edição — A Gargalhada da Rainha",
+    "categorias": [
+      "Dança",
+      "Cultura"
+    ],
+    "inicio": "2026-11-14T19:00",
+    "local": "Teatro Juarez Machado",
+    "bairro": "América",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": true,
+    "preco": 70.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 2.1,
+    "icone": "fa-solid fa-person-walking",
+    "detalheHorario": "Portões abrem às 18h30 · duração 1h30",
+    "endereco": "Avenida José Vieira, 315 · América",
+    "latitude": -26.2925,
+    "longitude": -48.844,
+    "organizador": "Cia de Dança Lia Machtam",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Prepare-se para uma jornada mágica em Al-Joinvillah, um reino onde a dança do ventre era a alma da festa até que a Rainha Talia, envergonhada por uma gargalhada descontrolada, baniu a arte de seus domínios! O silêncio e a melancolia tomaram conta, mas a arte não aceita o exílio. A corajosa jardineira Yasmin e o atrapalhado bobo da corte iniciam uma missão arriscada e hilariante: fazer a Rainha rir novamente para libertar o reino. Será que um simples movimento de quadris pode quebrar a maldição do orgulho e restaurar a alegria? Venha descobrir o desfecho desta história encantadora, repleta de coreografias deslumbrantes e muita emoção.",
+    "tags": [
+      "dança",
+      "cultura"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/musical/bellyvile-5-edicao-a-gargalhada-da-rainha/14-11/19-00/",
+    "tempoDeCarro": "8 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Icons",
+    "categorias": [
+      "Dança",
+      "Cultura"
+    ],
+    "inicio": "2026-11-16T20:00",
+    "local": "Teatro Juarez Machado",
+    "bairro": "América",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 30.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 2.1,
+    "icone": "fa-solid fa-person-walking",
+    "detalheHorario": "Portões abrem às 19h30 · duração 50 min",
+    "endereco": "Avenida José Vieira, 315 · América",
+    "latitude": -26.2925,
+    "longitude": -48.844,
+    "organizador": "Kulture Kaos",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Este espetáculo faz parte do Projeto Juarez na Dança que contempla escolas de dança dando a oportunidade para grupos da cidade terem a experiência de se apresentar com uma estrutura no Teatro da cidade. \"ICONS\" é um espetáculo que celebra a dança como expressão, identidade e memória. Em uma viagem por diferentes épocas, estilos e referências que marcaram gerações, o palco se transforma em um encontro entre passado e presente. Cada coreografia traz uma nova atmosfera, revelando personagens, movimentos e momentos que ajudaram a construir a cultura da dança. Do clássico ao urbano, do nostálgico ao contemporâneo, diferentes eras se encontram em um só palco.",
+    "tags": [
+      "dança",
+      "cultura"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/danca/icons/16-11/20-00/",
+    "tempoDeCarro": "8 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Rock Cover Fest",
+    "categorias": [
+      "Música"
+    ],
+    "inicio": "2026-10-11T21:00",
+    "local": "Porão da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 60.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-music",
+    "detalheHorario": "Portões abrem às 20h · duração 3h",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Pop Produções",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "VOCÊ VIVEU OS ANOS 90 E 2000? ENTÃO ESSA NOITE É SUA! Tem música que a gente escuta. E tem música que faz a gente voltar no tempo. Aquele Blink-182 que era impossível ouvir sem cantar junto. Aquele Green Day que marcou uma geração. Aquele Nirvana que tocava no quarto. Agora imagine os três no mesmo palco. BLINKDAY - Blink-182 Cover GREEN DAY COVER SC - Green Day Cover NIRVANA FOR SALE - Nirvana Cover Uma noite para reencontrar as músicas, os amigos e aquela versão de você que cresceu ouvindo o melhor do rock dos anos 90 e 2000. Porão da Liga - Joinville 11 de outubro - domingo, véspera de feriado 21h A nostalgia vai bater. A guitarra vai entrar. E você vai cantar.",
+    "tags": [
+      "música"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "18",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/show/rock-cover-fest/11-10/21-00/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Show Nacional Gloria na 11ª Tattoo Show",
+    "categorias": [
+      "Música"
+    ],
+    "inicio": "2026-10-16T20:00",
+    "local": "Joinville Square Garden",
+    "bairro": "Bom Retiro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 56.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 6.5,
+    "icone": "fa-solid fa-music",
+    "detalheHorario": "Portões abrem às 20h · duração 6h30",
+    "endereco": "Avenida Santos Dumont, 2625 · Bom Retiro",
+    "latitude": -26.2491,
+    "longitude": -48.8475,
+    "organizador": "Maga Tattoo",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Gloria Rock na 11ª Tattoo Show Joinville! No dia 16 de outubro de 2026 (sexta-feira), o Gloria sobe ao palco da 11ª Tattoo Show, a convenção anual internacional de tatuagem de Joinville, para uma noite de muito metal. A abertura fica por conta das bandas joinvilenses: * Plano Real (hardcore autoral) * Schizophrenia (tributo ao Sepultura) * Hater (tributo ao Korn) Bônus especial: ao comprar o ingresso para o show do Gloria, você ganha a entrada para o primeiro dia da convenção! Garanta seu ingresso e aproveite uma experiência completa, com tatuagem, arte, cultura e uma noite inesquecível de música! Vídeo",
+    "tags": [
+      "música"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "16",
+    "lote": "2º Lote",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/show/show-nacional-gloria-na-11-tattoo-show/16-10/20-00/",
+    "tempoDeCarro": "14 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Quarteto de Cordas ART4 — Turnê Transiberiana",
+    "categorias": [
+      "Música",
+      "Cultura"
+    ],
+    "inicio": "2026-10-30T20:00",
+    "local": "Harmonia Lyra",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 10.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 0.6,
+    "icone": "fa-solid fa-music",
+    "detalheHorario": "Portões abrem às 19h30 · duração 1h30",
+    "endereco": "Rua Quinze de Novembro, 485 · Centro",
+    "latitude": -26.3007,
+    "longitude": -48.8472,
+    "organizador": "Yare Cultural",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "O Quarteto de Cordas ART4, formado por instrumentistas com sólida formação e experiência, tem se destacado por apresentar repertórios de grande complexidade técnica e virtuosismo, raramente ouvidos em nosso Estado. A Turnê Transiberiana é exemplo disso, com uma seleção de músicas que incluem duas obras-primas para quartetos de cordas: o Quarteto de Cordas nº 1 em Lá maior, de Aleksandr Borodin (1833 -1887) e o Quarteto de Cordas nº 12 em Fá Maior \"Americano\", Op. 96, de Antonín Dvo'ák (1841-1904).",
+    "tags": [
+      "música",
+      "cultura"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Sem estacionamento",
+        "descricao": "O local não tem vagas"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/show/quarteto-de-cordas-art4-turne-transiberiana-joinville-sc/30-10/20-00/",
+    "tempoDeCarro": "3 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Flashback Experience — Bonato Ao Vivo",
+    "categorias": [
+      "Música"
+    ],
+    "inicio": "2026-11-06T21:00",
+    "local": "Teatro da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 100.0,
+    "rotuloPreco": "a partir de",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-music",
+    "detalheHorario": "Portões abrem às 20h · duração 2h",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Teatro Da Liga",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Joinville vai viver uma noite diferente de tudo. No dia 06 de novembro, às 21h, o Teatro da Liga recebe o FLASHBACK EXPERIENCE, um espetáculo especial da BONATO criado para quem acredita que algumas músicas não envelhecem - elas simplesmente atravessam gerações. Prepare-se para uma viagem pelos grandes clássicos que marcaram os anos 80, 90 e outras músicas inesquecíveis, em um show produzido para emocionar, cantar junto e reviver memórias. Com uma apresentação cheia de energia, qualidade musical e uma atmosfera envolvente, a BONATO transforma cada canção em uma experiência. É mais do que assistir a um show: é reencontrar músicas que fizeram parte da sua vida.",
+    "tags": [
+      "música"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      }
+    ],
+    "classificacao": "16",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/show/flashback-experience-bonato-ao-vivo-em-joinville/06-11/21-00/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Roxette UK — The Tribute Show",
+    "categorias": [
+      "Música"
+    ],
+    "inicio": "2026-11-19T21:00",
+    "local": "Teatro da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 160.0,
+    "rotuloPreco": "a partir de",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-music",
+    "detalheHorario": "Portões abrem às 20h · duração 2h",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Campeche Eventos",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "A maior banda tributo do mundo ao ROXETTE Vídeo",
+    "tags": [
+      "música"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      }
+    ],
+    "classificacao": "10",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/show/roxette-uk/19-11/21-00/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Elton John Diamonds",
+    "categorias": [
+      "Música"
+    ],
+    "inicio": "2026-12-11T21:00",
+    "local": "Teatro da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 240.0,
+    "rotuloPreco": "a partir de",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-music",
+    "detalheHorario": "Portões abrem às 20h · duração 2h",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "PRATIKA EVENTOS LTDA",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Uma noite para sentir, lembrar e se emocionar! Alguns shows não são apenas apresentações. Eles tocam a gente. Fazem lembrar histórias, fases da vida, pessoas. Elton John Diamonds é exatamente esse tipo de espetáculo. Interpretado por Mizinho Carvalho, músico com mais de 40 anos de estrada, o tributo recria com verdade e intensidade os grandes clássicos de Elton John - com piano de cauda, banda ao vivo e troca de figurino que traz de volta toda a identidade visual marcante do artista.",
+    "tags": [
+      "música"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/show/elton-john-diamonds/11-12/21-00/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "4º Harmonia Jazz Festival — Combo 3 dias",
+    "categorias": [
+      "Música"
+    ],
+    "data": "Sex 13 a dom 15 nov",
+    "dataCompleta": "Sexta, 13, a domingo, 15 de novembro",
+    "inicio": "2026-11-13T19:00",
+    "local": "Harmonia Lyra",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 210.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 0.6,
+    "icone": "fa-solid fa-music",
+    "detalheHorario": "Três noites de festival · duração 2h por noite",
+    "endereco": "Rua Quinze de Novembro, 485 · Centro",
+    "latitude": -26.3007,
+    "longitude": -48.8472,
+    "organizador": "Branco Produções",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Quarta edição do festival, com seis shows internacionais, com músicos da Espanha, EUA, França, Bélgica, Israel e Peru. Nesta modalidade você adquire o combo que dá direito a acesso às 3 noites do evento, não perca a oportunidade de garantir tudo que esse grande evento tem para oferecer.",
+    "tags": [
+      "música"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Sem estacionamento",
+        "descricao": "O local não tem vagas"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/festival/4-harmonia-jazz-festival-combo-3-dias/13-11/19-00/",
+    "tempoDeCarro": "3 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "4º Harmonia Jazz Festival — 13 de novembro",
+    "categorias": [
+      "Música"
+    ],
+    "inicio": "2026-11-13T20:00",
+    "local": "Harmonia Lyra",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 90.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 0.6,
+    "icone": "fa-solid fa-music",
+    "detalheHorario": "Portões abrem às 19h · duração 2h",
+    "endereco": "Rua Quinze de Novembro, 485 · Centro",
+    "latitude": -26.3007,
+    "longitude": -48.8472,
+    "organizador": "Branco Produções",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Quarta edição do festival, com seis shows internacionais, com músicos da Espanha, EUA, França, Bélgica, Israel e Peru. Na primeira noite, a presença da pianista espanhola Lucía Rey com seu trio e os americanos do Delvon Lamarr Organ Trio.",
+    "tags": [
+      "música"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Sem estacionamento",
+        "descricao": "O local não tem vagas"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/festival/4-harmonia-jazz-festival-13-novembro/13-11/20-00/",
+    "tempoDeCarro": "3 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "4º Harmonia Jazz Festival — 14 de novembro",
+    "categorias": [
+      "Música"
+    ],
+    "inicio": "2026-11-14T20:00",
+    "local": "Harmonia Lyra",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 90.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 0.6,
+    "icone": "fa-solid fa-music",
+    "detalheHorario": "Portões abrem às 19h · duração 2h",
+    "endereco": "Rua Quinze de Novembro, 485 · Centro",
+    "latitude": -26.3007,
+    "longitude": -48.8472,
+    "organizador": "Branco Produções",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Quarta edição do festival, com seis shows internacionais, com músicos da Espanha, EUA, França, Bélgica, Israel e Peru. Na segunda noite, a presença da cantora francesa Sarah Lenka e o duo DYAD, formado pelo acordeonista belga Didier Laloy e o contrabaixista francês Adrien Tyberghein.",
+    "tags": [
+      "música"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Sem estacionamento",
+        "descricao": "O local não tem vagas"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/festival/4-harmonia-jazz-festival-14-novembro/14-11/20-00/",
+    "tempoDeCarro": "3 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "4º Harmonia Jazz Festival — 15 de novembro",
+    "categorias": [
+      "Música"
+    ],
+    "inicio": "2026-11-15T19:00",
+    "local": "Harmonia Lyra",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 90.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 0.6,
+    "icone": "fa-solid fa-music",
+    "detalheHorario": "Portões abrem às 18h · duração 2h",
+    "endereco": "Rua Quinze de Novembro, 485 · Centro",
+    "latitude": -26.3007,
+    "longitude": -48.8472,
+    "organizador": "Branco Produções",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Quarta edição do festival, com seis shows internacionais, com músicos da Espanha, EUA, França, Bélgica, Israel e Peru. Na terceira noite, a presença do duo formado pelo guitarrista israelense Tomer Cohen (Israel) e o guitarrista peruano Rodrigo Almonte (Peru) e o quarteto da saxofonista francesa Claire Michael.",
+    "tags": [
+      "música"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Sem estacionamento",
+        "descricao": "O local não tem vagas"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/festival/4-harmonia-jazz-festival-15-novembro/15-11/19-00/",
+    "tempoDeCarro": "3 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Rafael Aragão em Joinville",
+    "categorias": [
+      "Humor"
+    ],
+    "inicio": "2026-10-03T20:00",
+    "local": "Teatro da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 120.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-microphone",
+    "detalheHorario": "Portões abrem às 19h · duração 1h30",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Paulo Vitor",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Rafael Aragão, humorista e ex-peão de fábrica, traz aos palcos histórias reais do seu dia a dia no chão de fábrica, contadas de um jeito leve, cômico e cheio de momentos hilários. A vivência com colegas de trabalho, chefes e situações absurdas do ambiente industrial se transformam em piadas com as quais qualquer trabalhador vai se identificar. INFORMAÇÕES IMPORTANTES CLASSIFICAÇÃO INDICATIVA: 16 ANOS. (Menores de 16 anos somente poderão acessar o evento acompanhados dos pais ou responsável legal.) ABERTURA DOS PORTÕES: Recomendamos a chegada com antecedência. ASSENTOS: A ocupação dos lugares será realizada por ordem de chegada, respeitando a capacidade e a disponibilidade do local.",
+    "tags": [
+      "humor"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      }
+    ],
+    "classificacao": "14",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/stand-up/rafael-aragao-em-joinville/03-10/20-00/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Nathi Gaiteira e Carlos André",
+    "categorias": [
+      "Humor"
+    ],
+    "inicio": "2026-10-16T20:30",
+    "local": "Teatro da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 100.0,
+    "rotuloPreco": "a partir de",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-microphone",
+    "detalheHorario": "Portões abrem às 19h30 · duração 1h20",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Art in Palco",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Nathi Gaiteira: A Dupla que Transforma Música e Humor em Conexão Real Com milhões de visualizações na internet, a cantora e gaiteira Nathi Gaiteira vem conquistando o Brasil ao unir música regional, humor cotidiano e uma conexão popular espontânea. Ao lado do noivo e parceiro musical Carlos André, a artista criou um formato que mistura música ao vivo, situações engraçadas do cotidiano de casal e releituras de modões que viralizaram na internet. O conteúdo da dupla ganha força pela autenticidade, transformando a rotina simples, os bastidores da música e as ?resenhas? de relacionamento em vídeos altamente compartilháveis.",
+    "tags": [
+      "humor"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      }
+    ],
+    "classificacao": "16",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/stand-up/nathi-gaiteira-e-carlos-andre/16-10/20-30/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Índio Behn | Dra. Rosângela",
+    "categorias": [
+      "Humor"
+    ],
+    "inicio": "2026-10-17T20:00",
+    "local": "Teatro da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 132.0,
+    "rotuloPreco": "a partir de",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-microphone",
+    "detalheHorario": "Portões abrem às 19h · duração 1h10",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Plauz Produções",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Nem toda influência é positiva, e a Dra. Rosângela é a prova viva disso. A terapeuta Dra. Rosângela, criação do humorista Índio Behn, sobe ao palco com o espetáculo Como Ser Tóxica e Influenciar Pessoas, uma comédia afiada que transforma as contradições dos relacionamentos modernos em gargalhadas. Com seu jeito peculiar de aconselhar o público, a psicóloga mais sinceramente inconveniente do Brasil apresenta um manual nada convencional sobre convivência, comportamento e as pequenas toxicidades do dia a dia, sempre com muito humor, música e interação com a plateia. O espetáculo convida o público a rir de situações que parecem familiares demais.",
+    "tags": [
+      "humor"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/stand-up/indio-behn-dra-rosangela-em-joinville-sc/17-10/20-00/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Léo Lins em Joinville",
+    "categorias": [
+      "Humor"
+    ],
+    "inicio": "2026-10-18T20:00",
+    "local": "Teatro da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 100.0,
+    "rotuloPreco": "a partir de",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-microphone",
+    "detalheHorario": "Portões abrem às 19h · duração 1h10",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Art in Palco",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "O humorista Léo Lins, um dos nomes mais conhecidos do stand-up brasileiro, chega a JOINVILLE no TEATRO DA LIGA, com seu espetáculo solo \"Enterrado Vivo\", logo após sua absolvição. Reconhecido por seu estilo único, que combina piadas afiadas e temas controversos, Léo Lins conquistou fãs no Brasil e no exterior enquanto enfrenta reações intensas ao seu trabalho. Em 2024, o artista teve apresentações proibidas em mais de 50 cidades, redes sociais suspensas, sofreu ameaças de prisão e passou a responder a processos movidos pelo Ministério Público, tudo em razão de seu conteúdo que desafia o politicamente correto.",
+    "tags": [
+      "humor"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      }
+    ],
+    "classificacao": "16",
+    "lote": "2º Lote",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/stand-up/leo-lins-joinville-sc/18-10/20-00/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Raphael Ghanem — A Carne Só Cai no Prato do Vegano",
+    "categorias": [
+      "Humor"
+    ],
+    "data": "Sex 20 nov · 19h e 21h",
+    "inicio": "2026-11-20T19:00",
+    "local": "Teatro da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 180.0,
+    "rotuloPreco": "a partir de",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-microphone",
+    "detalheHorario": "Sessões às 19h e 21h · duração 1h30",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Nascimento Música",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Com texto, interpretação e direção de Raphael Ghanem, \" A carne só cai no prato do Vegano\" é um espetáculo de Talkshow com a plateia, o público vira protagonista e participa de 90% do show com jogos de entrevista e interações ao vivo.",
+    "tags": [
+      "humor"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      }
+    ],
+    "classificacao": "18",
+    "lote": "2º Lote",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/stand-up/raphael-ghanem-a-carne-so-cai-no-prato-do-vegano-joinville-sc/20-11/19-00/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Rafael Aragão e Ivangélica — Festa da Firma",
+    "categorias": [
+      "Humor"
+    ],
+    "inicio": "2026-11-21T19:00",
+    "local": "Teatro da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 140.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-microphone",
+    "detalheHorario": "Portões abrem às 18h · duração 1h30",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Paulo Vitor",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Rafael Aragão, humorista e ex-peão de fábrica, traz aos palcos histórias reais do seu dia a dia no chão de fábrica, contadas de um jeito leve, cômico e cheio de momentos hilários. A vivência com colegas de trabalho, chefes e situações absurdas do ambiente industrial se transformam em piadas com as quais qualquer trabalhador vai se identificar. INFORMAÇÕES IMPORTANTES CLASSIFICAÇÃO INDICATIVA: 16 ANOS. (Menores de 16 anos somente poderão acessar o evento acompanhados dos pais ou responsável legal.) ABERTURA DOS PORTÕES: Recomendamos a chegada com antecedência. ASSENTOS: A ocupação dos lugares será realizada por ordem de chegada, respeitando a capacidade e a disponibilidade do local.",
+    "tags": [
+      "humor"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      }
+    ],
+    "classificacao": "14",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/stand-up/rafael-aragao-e-ivangelica-festa-da-firma/21-11/19-00/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Silvetty Montilla — Tô Adorando",
+    "categorias": [
+      "Humor"
+    ],
+    "inicio": "2026-12-09T21:00",
+    "local": "Porão da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 56.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-microphone",
+    "detalheHorario": "Portões abrem às 20h · duração 1h",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Teatro Da Liga",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "SILVETTY MONTILLA CHEGA A JOINVILLE PELA PRIMEIRA VEZ COM A TURNÊ \"TÔ ADORANDO\" Uma das grandes referências do humor e da cena LGBTQIA+ brasileira, Silvetty Montilla chega a Joinville pela primeira vez com sua nova turnê nacional, \"Tô Adorando\". Com muito humor, irreverência, interação com o público e performances, o espetáculo celebra os mais de 37 anos de carreira de Silvetty, que transforma suas histórias e experiências em uma noite divertida, provocante e cheia de personalidade. Joinville recebe, pela primeira vez, o espetáculo \"Tô Adorando\" - uma experiência que promete arrancar muitas risadas e deixar o público pedindo mais!",
+    "tags": [
+      "humor"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "18",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/stand-up/silvetty-montilla-em-to-adorando/09-12/21-00/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "Cátia Damasceno em Joinville",
+    "categorias": [
+      "Humor"
+    ],
+    "inicio": "2026-12-17T19:30",
+    "local": "Teatro da Liga",
+    "bairro": "Centro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 176.0,
+    "rotuloPreco": "a partir de",
+    "distanciaKm": 1.0,
+    "icone": "fa-solid fa-microphone",
+    "detalheHorario": "Portões abrem às 18h30 · duração 1h30",
+    "endereco": "Rua Jaguaruna, 100 · Centro",
+    "latitude": -26.3048,
+    "longitude": -48.8483,
+    "organizador": "Plauz Produções",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "Cátia Damasceno em Joinville, SC O que pode dar errado na cama? Certas coisas não podem ficar só entre quatro paredes. Cátia Damasceno está de volta aos palcos com \"O que pode dar errado na cama?\", uma comédia imperdível para assistir a dois. Com seu jeito único de contar histórias enquanto fala sobre sexualidade, a maior autoridade do país na área transforma os perrengues mais constrangedores da vida a dois em gargalhadas garantidas. É aquele tipo de espetáculo em que você olha pro lado e pensa: ?isso já aconteceu com a gente!?.",
+    "tags": [
+      "humor"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      }
+    ],
+    "classificacao": "18",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/stand-up/catia-damasceno-em-joinville-sc/17-12/19-30/",
+    "tempoDeCarro": "4 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "titulo": "11ª Tattoo Show 2026",
+    "categorias": [
+      "Cultura",
+      "Feiras"
+    ],
+    "data": "Sex 16 a dom 18 out",
+    "inicio": "2026-10-16T13:00",
+    "local": "Joinville Square Garden",
+    "bairro": "Bom Retiro",
+    "acessivel": true,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "preco": 18.0,
+    "rotuloPreco": "ingresso",
+    "distanciaKm": 6.5,
+    "icone": "fa-solid fa-masks-theater",
+    "detalheHorario": "Sessões: sex 16/10 às 13h, sáb 17/10 às 10h e dom 18/10 às 10h · duração 12h",
+    "endereco": "Avenida Santos Dumont, 2625 · Bom Retiro",
+    "latitude": -26.2491,
+    "longitude": -48.8475,
+    "organizador": "Maga Tattoo",
+    "detalheOrganizador": "Produção do evento",
+    "sobre": "11° Convenção internacional de tatuagem de Joinville reuni os melhores tatuadores do Brasil e do mundo, evento multicultural com show nacionais, concursos, exposições, feira mix e muito mais",
+    "tags": [
+      "cultura",
+      "feiras"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Acesso para pessoas com deficiência"
+      },
+      {
+        "icone": "fa-solid fa-square-parking",
+        "titulo": "Estacionamento",
+        "descricao": "Pago, no local"
+      },
+      {
+        "icone": "fa-solid fa-utensils",
+        "titulo": "Alimentação",
+        "descricao": "Venda de alimentos no local"
+      }
+    ],
+    "classificacao": "L",
+    "lote": "Ingressos à venda",
+    "linkCompra": "https://www.eticketcenter.com.br/eventos/convencao/11-tattoo-show-2026/16-10/13-00/",
+    "tempoDeCarro": "14 min de carro",
+    "lugaresProximos": []
+  },
+  {
+    "acessivel": false,
+    "petFriendly": false,
+    "paraFamilia": true,
+    "tags": [
+      "chope",
+      "gastronomia",
+      "festa",
+      "música"
+    ],
+    "informacoes": [],
+    "lugaresProximos": [],
+    "titulo": "Fenachopp 2026",
+    "categorias": [
+      "Gastronomia",
+      "Festas"
+    ],
+    "data": "Sex 2 a dom 4 out",
+    "dataCompleta": "Sexta, 2, a domingo, 4 de outubro",
+    "inicio": "2026-10-02T17:00",
+    "local": "Expoville",
+    "bairro": "Glória",
+    "preco": 20,
+    "rotuloPreco": "a partir de",
+    "distanciaKm": 4.2,
+    "icone": "fa-solid fa-beer-mug-empty",
+    "detalheHorario": "Sex 17h às 3h · sáb 10h às 3h · dom 10h às 22h",
+    "endereco": "R. XV de Novembro, 4315 · Glória",
+    "latitude": -26.2993,
+    "longitude": -48.8818,
+    "organizador": "Fenachopp",
+    "detalheOrganizador": "Organização do evento",
+    "sobre": "Festa do chope de Joinville, com mais de 40 bandas e atrações musicais, gastronomia típica em mais de 15 boxes, grupos folclóricos, apresentações de dança, parque com atrações para famílias e ambientes temáticos. Entrada gratuita na sexta até as 18h, no sábado até as 17h e no domingo o dia todo. Crianças até 10 anos não pagam; menores de 18 anos só entram acompanhados.",
+    "classificacao": "L",
+    "lote": "Sex R$ 20 · sáb R$ 30 · dom grátis",
+    "linkCompra": "https://oiingressos.com.br/comprar/1497",
+    "tempoDeCarro": "10 min de carro"
+  },
+  {
+    "acessivel": false,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "tags": [
+      "games",
+      "e-sports",
+      "cosplay",
+      "tecnologia"
+    ],
+    "informacoes": [],
+    "lugaresProximos": [],
+    "titulo": "Pichau Arena 2026",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "data": "Sáb 10 a seg 12 out",
+    "dataCompleta": "Sábado, 10, a segunda-feira, 12 de outubro",
+    "inicio": "2026-10-10T12:00",
+    "local": "Joinville Square Garden",
+    "bairro": "Bom Retiro",
+    "preco": 200,
+    "rotuloPreco": "a partir de",
+    "distanciaKm": 6.5,
+    "icone": "fa-solid fa-gamepad",
+    "detalheHorario": "Abertura às 12h no sábado · demais horários não divulgados",
+    "endereco": "Avenida Santos Dumont, 2625 · Bom Retiro",
+    "latitude": -26.2491,
+    "longitude": -48.8475,
+    "organizador": "Pichau Informática",
+    "detalheOrganizador": "Organização do evento",
+    "sobre": "Evento gamer com mais de 200 PCs em free play, simuladores de corrida profissionais, exposição de carros esportivos, torneios de e-sports (CS2, VALORANT, League of Legends e outros), competições de cosplay e K-pop, sorteios e brindes. Ingresso diário a partir de R$ 200 no sábado; meia-entrada e ingresso solidário a partir de R$ 100; passaporte para os três dias por R$ 500.",
+    "classificacao": "L",
+    "lote": "3º lote",
+    "linkCompra": "https://evento.pichauarena.com.br/",
+    "tempoDeCarro": "14 min de carro"
+  },
+  {
+    "acessivel": false,
+    "petFriendly": false,
+    "paraFamilia": false,
+    "tags": [
+      "alimentação",
+      "palestra",
+      "saúde"
+    ],
+    "informacoes": [],
+    "lugaresProximos": [],
+    "titulo": "Dia Mundial da Alimentação 2026",
+    "categorias": [
+      "Gastronomia",
+      "Cultura"
+    ],
+    "inicio": "2026-10-15T08:00",
+    "data": "Qui 15 out · 8h às 11h30",
+    "local": "Câmara de Vereadores de Joinville",
+    "bairro": "Saguaçu",
+    "preco": 0,
+    "rotuloPreco": "inscrição",
+    "distanciaKm": 1.8,
+    "icone": "fa-solid fa-apple-whole",
+    "detalheHorario": "Das 8h às 11h30 · inscrição até 13 de outubro",
+    "endereco": "Avenida Hermann August Lepper, 1100 · Saguaçu",
+    "latitude": -26.2919,
+    "longitude": -48.842,
+    "organizador": "COMSEAN",
+    "detalheOrganizador": "Conselho Municipal de Segurança Alimentar e Nutricional",
+    "sobre": "Manhã de palestras com o tema \"Nutrindo o Futuro: Escolhas que Nutrem, Direitos que Protegem\", no plenário da Câmara de Vereadores. A programação tem palestras sobre alimentação saudável, impacto da alimentação na saúde e políticas públicas, além de uma mesa de debate. Aberto à população em geral, com inscrição obrigatória.",
+    "classificacao": "L",
+    "lote": "Gratuito, com inscrição",
+    "linkCompra": "https://www.sympla.com.br/evento/nutrindo-o-futuro-escolhas-que-nutrem-direitos-que-protegem/3505112",
+    "tempoDeCarro": "6 min de carro"
+  },
+  {
+    "acessivel": true,
+    "petFriendly": true,
+    "paraFamilia": true,
+    "tags": [
+      "flores",
+      "orquídeas",
+      "feira",
+      "gastronomia"
+    ],
+    "informacoes": [
+      {
+        "icone": "fa-solid fa-wheelchair",
+        "titulo": "Acessível",
+        "descricao": "Rampas, banheiros adaptados e cadeiras de rodas"
+      },
+      {
+        "icone": "fa-solid fa-paw",
+        "titulo": "Pet friendly",
+        "descricao": "Pequeno e médio porte, na guia"
+      },
+      {
+        "icone": "fa-solid fa-children",
+        "titulo": "Para família",
+        "descricao": "Crianças até 5 anos não pagam"
+      }
+    ],
+    "lugaresProximos": [],
+    "titulo": "86ª Festa das Flores de Joinville",
+    "categorias": [
+      "Feiras",
+      "Gastronomia",
+      "Cultura"
+    ],
+    "data": "Ter 17 a dom 22 nov",
+    "dataCompleta": "Terça-feira, 17, a domingo, 22 de novembro",
+    "inicio": "2026-11-17T09:00",
+    "local": "Expoville",
+    "bairro": "Glória",
+    "preco": 28,
+    "rotuloPreco": "inteira",
+    "distanciaKm": 4.2,
+    "icone": "fa-solid fa-seedling",
+    "detalheHorario": "Ter a sáb 9h às 22h · dom 9h às 20h",
+    "endereco": "R. XV de Novembro, 4315 · Glória",
+    "latitude": -26.2993,
+    "longitude": -48.8818,
+    "organizador": "AJAO",
+    "detalheOrganizador": "Agremiação Joinvilense dos Amadores de Orquídeas",
+    "sobre": "Exposição temática de flores, apresentações culturais em três palcos, Mercado de Plantas, Feira Multissetorial, Praça Gastronômica e o Concurso Flor da Melhor Idade. Ingresso do 2º lote a R$ 28 (meia R$ 14) até 31 de outubro; a partir de 1º de novembro, R$ 30. Crianças até 5 anos não pagam.",
+    "classificacao": "L",
+    "lote": "2º lote (até 31 out)",
+    "linkCompra": "https://festadasflores.eticketcenter.com.br/",
+    "tempoDeCarro": "10 min de carro"
   }
 ]

@@ -17,6 +17,37 @@ class Esquema(BaseModel):
     )
 
 
+# ---------- Contas ----------
+
+
+class CadastroEntrada(Esquema):
+    nome: str = Field(min_length=1, max_length=80)
+    email: str = Field(pattern=r"^[^\s@]+@[^\s@]+\.[^\s@]+$", max_length=254)
+    senha: str = Field(min_length=8, max_length=200)
+
+
+class LoginEntrada(Esquema):
+    email: str
+    senha: str
+
+
+class InteressesEntrada(Esquema):
+    interesses: list[str] = Field(max_length=30)
+
+
+class Usuario(Esquema):
+    id: int
+    nome: str
+    email: str
+    interesses: list[str]
+    admin: bool
+
+
+class SessaoAberta(Esquema):
+    token: str
+    usuario: Usuario
+
+
 # ---------- Lugares ----------
 
 
@@ -67,6 +98,8 @@ class EventoBase(Esquema):
     distancia_km: float = Field(ge=0)
     icone: str
     destaque: str | None = None
+    # foto de capa: um caminho (/imgs/festival-de-danca.jpg) ou a própria imagem em data URL
+    imagem: str | None = Field(default=None, max_length=600_000)
     bairro: str
     acessivel: bool = False
     pet_friendly: bool = False

@@ -8,6 +8,29 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.banco import Base
 
 
+class Usuario(Base):
+    __tablename__ = "usuarios"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    nome: Mapped[str]
+    email: Mapped[str] = mapped_column(unique=True, index=True)
+    senha_hash: Mapped[str]
+    interesses: Mapped[list[str]] = mapped_column(JSON, default=list)
+    admin: Mapped[bool] = mapped_column(default=False)
+
+
+class Sessao(Base):
+    """Um login ativo. O token em si fica só com o navegador; aqui vai o hash dele."""
+
+    __tablename__ = "sessoes"
+
+    token_hash: Mapped[str] = mapped_column(primary_key=True)
+    usuario_id: Mapped[int] = mapped_column(ForeignKey("usuarios.id"))
+    criada_em: Mapped[datetime] = mapped_column(default=datetime.now)
+
+    usuario: Mapped[Usuario] = relationship(lazy="joined")
+
+
 class Lugar(Base):
     __tablename__ = "lugares"
 
@@ -52,6 +75,7 @@ class Evento(Base):
     distancia_km: Mapped[float]
     icone: Mapped[str]
     destaque: Mapped[str | None]
+    imagem: Mapped[str | None]
     bairro: Mapped[str]
     acessivel: Mapped[bool]
     pet_friendly: Mapped[bool]
