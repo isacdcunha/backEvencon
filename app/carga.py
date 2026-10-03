@@ -1,7 +1,7 @@
 """Carga em massa de lugares e eventos a partir dos arquivos em dados/.
 
     python -m app.carga             insere o que está em dados/
-    python -m app.carga --recriar   apaga tudo antes de inserir
+    python -m app.carga --recriar   apaga eventos e lugares antes de inserir (as contas ficam)
 
 Nos eventos, cada lugar próximo é indicado pelo nome:
     "lugaresProximos": [{ "lugar": "Pátio América", "distanciaKm": 0.4 }]
@@ -27,7 +27,8 @@ def ler(arquivo: str) -> list[dict]:
 
 def carregar(recriar: bool = False) -> tuple[int, int]:
     if recriar:
-        Base.metadata.drop_all(motor)
+        tabelas = [modelos.EventoLugar.__table__, modelos.Evento.__table__, modelos.Lugar.__table__]
+        Base.metadata.drop_all(motor, tables=tabelas)
     criar_tabelas()
 
     with CriarSessao() as sessao:

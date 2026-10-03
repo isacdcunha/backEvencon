@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 
 from app import datas, esquemas, modelos
 from app.banco import obter_sessao
+from app.rotas.auth import exigir_admin
 
 rotas = APIRouter(prefix="/eventos", tags=["Eventos"])
 
@@ -75,16 +76,30 @@ def buscar_semelhantes(
     return sorted(outros, key=em_comum, reverse=True)[:limite]
 
 
-@rotas.post("", response_model=esquemas.EventoDetalhe, status_code=status.HTTP_201_CREATED)
+@rotas.post(
+    "",
+    response_model=esquemas.EventoDetalhe,
+    status_code=status.HTTP_201_CREATED,
+    dependencies=[Depends(exigir_admin)],
+)
 def criar_evento(dados: esquemas.EventoEntrada, sessao: Session = Depends(obter_sessao)):
     return esquemas.EventoDetalhe.de_modelo(criar_eventos(sessao, [dados])[0])
 
 
 @rotas.post(
-    "/lote", response_model=list[esquemas.EventoDetalhe], status_code=status.HTTP_201_CREATED
+    "/lote",
+    response_model=list[esquemas.EventoDetalhe],
+    status_code=status.HTTP_201_CREATED,
+    dependencies=[Depends(exigir_admin)],
 )
 def criar_eventos_em_lote(
     dados: list[esquemas.EventoEntrada], sessao: Session = Depends(obter_sessao)
 ):
     """Insere vários eventos de uma vez. Se um falhar, nenhum é salvo."""
     return [esquemas.EventoDetalhe.de_modelo(evento) for evento in criar_eventos(sessao, dados)]
+
+
+@rotas.delete("/{id}", status_code=status.HTTP_204_NO_CONTENT, dependencies=[Depends(exigir_admin)])
+def apagar_evento(id: int, sessao: Session = Depends(obter_sessao)):
+    sessao.delete(buscar_ou_404(sessao, id))
+    sessao.commit()

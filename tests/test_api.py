@@ -1,4 +1,4 @@
-from app.carga import carregar
+from app.carga import carregar, ler
 
 LUGAR = {
     "nome": "Pátio América",
@@ -108,12 +108,16 @@ def test_erros(api):
 
 
 def test_carga_dos_arquivos_de_dados(api):
-    assert carregar() == (6, 4)
+    lugares_no_arquivo = len(ler("lugares.json"))
+    eventos_no_arquivo = ler("eventos.json")
+    assert carregar() == (lugares_no_arquivo, len(eventos_no_arquivo))
 
     eventos = api.get("/eventos").json()
-    assert len(eventos) == 4
-    feira = api.get(f"/eventos/{eventos[0]['id']}").json()
-    assert feira["titulo"] == "Feira de Sábado no Mercado Público"
-    assert feira["data"] == "Sáb 3 out · 8h às 13h"
-    assert len(feira["lugaresProximos"]) == 3
-    assert len(api.get("/lugares").json()) == 6
+    assert len(eventos) == len(eventos_no_arquivo)
+    assert len(api.get("/lugares").json()) == lugares_no_arquivo
+
+    # os lugares próximos, indicados pelo nome no arquivo, chegam ligados ao evento
+    feira = next(e for e in eventos if e["titulo"] == "Feira de Sábado no Mercado Público")
+    detalhe = api.get(f"/eventos/{feira['id']}").json()
+    assert detalhe["data"] == "Sáb 3 out · 8h às 13h"
+    assert len(detalhe["lugaresProximos"]) == 3

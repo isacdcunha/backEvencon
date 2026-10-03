@@ -1,6 +1,6 @@
 # Evencon — back-end
 
-API do Evencon, feita em Python com FastAPI e banco SQLite. Por enquanto cuida de **eventos** e **lugares**; cadastro, login e salvos ainda ficam no front-end.
+API do Evencon, feita em Python com FastAPI e banco SQLite. Cuida de **eventos**, **lugares** e **contas** (cadastro, login e a conta de administração). Os eventos salvos ainda ficam no front-end.
 
 ## Como rodar
 
@@ -12,6 +12,7 @@ source .venv/bin/activate        # no Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 python -m app.carga              # cria o banco e insere os eventos de dados/
+python -m app.criar_admin        # cria a conta de administração e mostra a senha
 uvicorn app.main:app --reload    # sobe a API em http://localhost:8000
 ```
 
@@ -26,15 +27,37 @@ O banco é o arquivo `evencon.db`, criado na raiz do projeto. Ele não vai para 
 | GET | `/eventos` | Lista os eventos em ordem de data, no formato resumido usado pelos cards |
 | GET | `/eventos/{id}` | Evento completo, com os lugares próximos |
 | GET | `/eventos/{id}/semelhantes?limite=3` | Outros eventos, começando pelos que têm mais categorias em comum |
-| POST | `/eventos` | Cria um evento |
-| POST | `/eventos/lote` | Cria vários eventos de uma vez |
+| POST | `/eventos` | Cria um evento (só administração) |
+| POST | `/eventos/lote` | Cria vários eventos de uma vez (só administração) |
+| DELETE | `/eventos/{id}` | Apaga um evento (só administração) |
 | GET | `/lugares` | Lista os lugares |
-| POST | `/lugares` | Cria um lugar |
-| POST | `/lugares/lote` | Cria vários lugares de uma vez |
+| POST | `/lugares` | Cria um lugar (só administração) |
+| POST | `/lugares/lote` | Cria vários lugares de uma vez (só administração) |
+| POST | `/auth/cadastro` | Cria uma conta e já devolve o login |
+| POST | `/auth/login` | Entra com e-mail e senha |
+| GET | `/auth/eu` | Dados da conta logada |
+| PUT | `/auth/eu/interesses` | Atualiza os interesses da conta logada |
+| POST | `/auth/sair` | Encerra o login atual |
 
 O JSON usa os mesmos nomes dos tipos do front-end (`rotuloPreco`, `distanciaKm`, `lugaresProximos`...).
 
-As rotas de criação ainda **não pedem login**: qualquer pessoa que alcance a API consegue inserir. Isso precisa ser fechado antes de publicar.
+## Contas e administração
+
+O cadastro e o login devolvem um `token`. As rotas que pedem login esperam esse token no cabeçalho `Authorization: Bearer <token>`. As senhas são guardadas com hash (scrypt), nunca em texto.
+
+Criar e apagar eventos e lugares só funciona para a conta de administração, `admin@gmail.com.br`. Ela não é criada pelo cadastro comum:
+
+```bash
+python -m app.criar_admin
+```
+
+O comando cria a conta e mostra uma senha gerada na hora, **uma única vez**. Rodar de novo redefine a senha. Para escolher a senha, use a variável `EVENCON_SENHA_ADMIN`:
+
+```bash
+EVENCON_SENHA_ADMIN="uma-senha-so-sua" python -m app.criar_admin
+```
+
+Como o banco não vai para o Git, cada pessoa do grupo cria a própria conta de administração na sua máquina.
 
 ## Inserir eventos em massa
 
@@ -48,7 +71,7 @@ Edite os arquivos da pasta `dados/` e rode a carga:
   ```
 
 ```bash
-python -m app.carga --recriar    # apaga o banco inteiro e carrega de novo
+python -m app.carga --recriar    # apaga eventos e lugares e carrega de novo (as contas ficam)
 ```
 
 Sem `--recriar`, a carga só roda se o banco ainda não tiver eventos.
@@ -57,7 +80,7 @@ Em cada evento, `inicio` é obrigatório (`"2026-10-03T20:30"`). Os textos `data
 
 ## Mudou uma tabela?
 
-Ainda não há migrações. Se alguém alterar `app/modelos.py`, é preciso recriar o banco com `python -m app.carga --recriar`, e o que foi inserido fora dos arquivos de `dados/` se perde.
+Ainda não há migrações. Se alguém alterar `app/modelos.py`, é preciso recriar as tabelas. Para eventos e lugares, `python -m app.carga --recriar` resolve, e o que foi inserido fora dos arquivos de `dados/` se perde. Para mudanças na tabela de contas, é preciso apagar o arquivo `evencon.db`, e aí todas as contas se perdem.
 
 ## Testes
 
@@ -76,8 +99,10 @@ app/
   modelos.py     tabelas
   esquemas.py    formato do JSON que entra e sai
   datas.py       textos de data em português
+  seguranca.py   hash de senha e tokens de login
   carga.py       carga em massa a partir de dados/
-  rotas/         eventos.py e lugares.py
+  criar_admin.py cria a conta de administração
+  rotas/         auth.py, eventos.py e lugares.py
 dados/           eventos e lugares da carga inicial
 tests/           testes da API
 ```
@@ -87,4 +112,5 @@ tests/           testes da API
 Tudo opcional, por variável de ambiente:
 
 - `EVENCON_BANCO` — endereço do banco. Padrão: `sqlite:///evencon.db`.
+- `EVENCON_SENHA_ADMIN` e `EVENCON_EMAIL_ADMIN` — usadas só pelo `criar_admin`.
 - `EVENCON_ORIGENS` — endereços do front-end que podem chamar a API, separados por vírgula. Padrão: `http://localhost:5173`.

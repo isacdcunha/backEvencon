@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 
 from app import esquemas, modelos
 from app.banco import obter_sessao
+from app.rotas.auth import exigir_admin
 
 rotas = APIRouter(prefix="/lugares", tags=["Lugares"])
 
@@ -29,12 +30,22 @@ def listar_lugares(sessao: Session = Depends(obter_sessao)):
     return sessao.scalars(select(modelos.Lugar).order_by(modelos.Lugar.nome)).all()
 
 
-@rotas.post("", response_model=esquemas.Lugar, status_code=status.HTTP_201_CREATED)
+@rotas.post(
+    "",
+    response_model=esquemas.Lugar,
+    status_code=status.HTTP_201_CREATED,
+    dependencies=[Depends(exigir_admin)],
+)
 def criar_lugar(dados: esquemas.LugarEntrada, sessao: Session = Depends(obter_sessao)):
     return criar_lugares(sessao, [dados])[0]
 
 
-@rotas.post("/lote", response_model=list[esquemas.Lugar], status_code=status.HTTP_201_CREATED)
+@rotas.post(
+    "/lote",
+    response_model=list[esquemas.Lugar],
+    status_code=status.HTTP_201_CREATED,
+    dependencies=[Depends(exigir_admin)],
+)
 def criar_lugares_em_lote(
     dados: list[esquemas.LugarEntrada], sessao: Session = Depends(obter_sessao)
 ):
